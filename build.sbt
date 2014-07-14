@@ -1,3 +1,5 @@
+import play.PlayJava
+
 name := """jt-engine"""
 
 version := "1.0-SNAPSHOT"
@@ -10,5 +12,6 @@ libraryDependencies ++= Seq(
   javaJdbc,
   javaEbean,
   cache,
-  javaWs
+  javaWs,
+  "com.google.inject" % "guice" % "3.0"
 )
